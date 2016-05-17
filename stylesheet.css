@@ -1,6 +1,10 @@
 body {
 	background-color: #FF0000;
 }
+img {
+	height:100;
+	width:100;
+}
 h1 {
 	 font-family: impact;
 	 background-color:#FFFFFF;
