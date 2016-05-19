@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title>
 		GifGen
 		</title>
@@ -31,20 +31,22 @@
 			<form>
 				<tr>
 					<td>Tags:<br></td>
-					<td><input type="text", name="tags"></td>
+					<td><input type="text", id="tags"></td>
 				</tr>
 				<tr>
 					<td>Rating:<br></td>
-					<td><input type="text", name="rating"></td>
+					<td><input type="text", id="rating"></td>
 				</tr>
 				<tr>
 					<td>Title:<br></td>
-					<td><input type="text", name="title"></td>
+					<td><input type="text", id="title"></td>
 				</tr>
 				<tr>
-					<td><input type="submit", name="genrand", value="Generate Random"></td>
+					<td><input type="button", id="genrand", value="Generate Random"></td>
 				</tr>
 			</form>
 		</table>
+		<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+		<script src="scripts.js"></script>
 	</body>
 </html>
